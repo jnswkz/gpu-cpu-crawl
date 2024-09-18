@@ -36,7 +36,7 @@ async def crawl():
 
     cpu_specs = []
     current = 1
-    f = open("cpu_specs"+current+".txt", "w")
+    f = open("./txt/cpu_specs"+current+".txt", "w")
     async with aiohttp.ClientSession() as session:
         for cpu in cpu_code_name:
             site = cpu_site_crawl + cpu
@@ -60,7 +60,7 @@ def main():
     # asyncio.run(crawl())
     data = [['Name', 'Codename', 'Cores', 'Clock', 'Socket', 'Process', 'L3 Cache', 'TDP', 'Released']]
     for nbfile in range(1, 7):
-        with open("cpu_specs"+str(nbfile)+".txt") as f:
+        with open("./txt/cpu_specs"+str(nbfile)+".txt") as f:
             while line := f.readline():
                 l = ast.literal_eval(line)
                 for cpu in l[2:]:
