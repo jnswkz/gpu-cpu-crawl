@@ -31,5 +31,6 @@ async def main():
     json_list = json.loads(json.dumps(list(df.T.to_dict().values())))
     with open('gpu_specs.json', 'w') as f:
         json.dump(json_list, f)
+        
 
 asyncio.run(main())
