@@ -1,0 +1,16 @@
+[project]
+authors = ["jnswkz <23520408@gm.uit.edu.vn>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "gpu_test"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+gpucrawl = "python gpucrawl.py"
+cpucrawl = "python cpucrawl.py"
+
+[dependencies]
+beautifulsoup4 = ">=4.9.3"
+pandas = ">=1.2.4"
+aiohttp = ">=3.7.4"

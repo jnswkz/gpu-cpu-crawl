@@ -4,13 +4,13 @@ import aiohttp
 import pandas as pd
 import json
 
-gpu_site_crawl = "https://www.techpowerup.com/gpu-specs/?ajaxsrch="
+GPU_SITE_CRAWL = "https://www.techpowerup.com/gpu-specs/?ajaxsrch="
 
-async def fetch_gpus(session, site):
+async def fetchGpus(session, site):
     async with session.get(site) as response:
         return await response.text()
 
-async def parse_gpu_specs(html):
+async def parseGpuSpecs(html):
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table')
     gpus = table.find_all('tr')
@@ -23,8 +23,8 @@ async def parse_gpu_specs(html):
 
 async def main():
     async with aiohttp.ClientSession() as session:
-        html = await fetch_gpus(session, gpu_site_crawl)
-        gpu_specs = await parse_gpu_specs(html)
+        html = await fetchGpus(session, GPU_SITE_CRAWL)
+        gpu_specs = await parseGpuSpecs(html)
 
     df = pd.DataFrame(gpu_specs[1:], columns=gpu_specs[0])
 
