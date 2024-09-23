@@ -5,15 +5,15 @@ import json
 
 cpu_code_name = []
 
-site = "https://www.techpowerup.com/cpu-specs/"
+SITE = "https://www.techpowerup.com/cpu-specs/"
 
 async def fetch(session, site):
     async with session.get(site) as response:
         return await response.text()
 
-async def parse_cpu_code_name():
+async def parseCpuCodename():
     async with aiohttp.ClientSession() as session:
-        html = await fetch(session, site) 
+        html = await fetch(session, SITE) 
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find(id='codename')
     codenames = table.find_all('option')
@@ -29,7 +29,7 @@ async def parse_cpu_code_name():
     
     cpu_code_name.append(current_codename)
 
-asyncio.run(parse_cpu_code_name())
+asyncio.run(parseCpuCodename())
 with open("cpu_codename.json","w") as f:
     f.write(json.dumps(cpu_code_name))
     
