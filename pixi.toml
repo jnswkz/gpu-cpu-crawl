@@ -1,8 +1,8 @@
 [project]
 authors = ["jnswkz <23520408@gm.uit.edu.vn>"]
 channels = ["conda-forge"]
-description = "Add a short description here"
-name = "gpu_test"
+description = "Small crawler for GPU and CPU information from TPU" 
+name = "gpu_cpu_crawler"
 platforms = ["win-64"]
 version = "0.1.0"
 

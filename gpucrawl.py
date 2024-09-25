@@ -9,7 +9,7 @@ from dateparser import parse
 GPU_SITE_CRAWL = "https://www.techpowerup.com/gpu-specs/?ajaxsrch="
 UNKNOW_CASE = ["Never Released", "Unknown", "N/A", "TBD", "TBA"]
 
-async def fetchGpus(session, site):
+async def fetch(session, site):
     async with session.get(site) as response:
         return await response.text()
 
@@ -33,7 +33,7 @@ def parseDate(date):
 
 async def main():
     async with aiohttp.ClientSession() as session:
-        html = await fetchGpus(session, GPU_SITE_CRAWL)
+        html = await fetch(session, GPU_SITE_CRAWL)
         gpu_specs = await parseGpuSpecs(html)
 
     df = pd.DataFrame(gpu_specs[1:], columns=gpu_specs[0])
@@ -42,10 +42,7 @@ async def main():
     df = df.sort_values(by="Released Date", ascending=False)
     df = df.reset_index(drop=True)
     df = df.drop(columns=["Released Date"])
-    # print(df)
-    # df.to_csv('gpu_specs.csv', index=False)
 
     df.to_json('gpu_specs.json', orient='records')
         
-
 asyncio.run(main())

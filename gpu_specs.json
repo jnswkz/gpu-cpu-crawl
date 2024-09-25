@@ -1890,16 +1890,6 @@
     "Shaders / TMUs / ROPs": "512 / 32 / 16"
   },
   {
-    "Product Name": "GeForce RTX 3060 Ti GA103",
-    "GPU Chip": "GA103",
-    "Released": "Feb 23rd, 2022",
-    "Bus": "PCIe 4.0 x16",
-    "Memory": "8 GB, GDDR6, 256 bit",
-    "GPU clock": "1410 MHz",
-    "Memory clock": "1750 MHz",
-    "Shaders / TMUs / ROPs": "4864 / 152 / 80"
-  },
-  {
     "Product Name": "A10M",
     "GPU Chip": "GA102",
     "Released": "Feb 2022",
@@ -1908,6 +1898,16 @@
     "GPU clock": "975 MHz",
     "Memory clock": "1563 MHz",
     "Shaders / TMUs / ROPs": "7168 / 224 / 80"
+  },
+  {
+    "Product Name": "GeForce RTX 3060 Ti GA103",
+    "GPU Chip": "GA103",
+    "Released": "Feb 23rd, 2022",
+    "Bus": "PCIe 4.0 x16",
+    "Memory": "8 GB, GDDR6, 256 bit",
+    "GPU clock": "1410 MHz",
+    "Memory clock": "1750 MHz",
+    "Shaders / TMUs / ROPs": "4864 / 152 / 80"
   },
   {
     "Product Name": "GeForce RTX 3090 Ti",
@@ -3520,16 +3520,6 @@
     "Shaders / TMUs / ROPs": "3840 / 240 / 96"
   },
   {
-    "Product Name": "A40 PCIe",
-    "GPU Chip": "GA102",
-    "Released": "Oct 5th, 2020",
-    "Bus": "PCIe 4.0 x16",
-    "Memory": "48 GB, GDDR6, 384 bit",
-    "GPU clock": "1305 MHz",
-    "Memory clock": "1812 MHz",
-    "Shaders / TMUs / ROPs": "10752 / 336 / 112"
-  },
-  {
     "Product Name": "RTX A6000",
     "GPU Chip": "GA102",
     "Released": "Oct 5th, 2020",
@@ -3540,14 +3530,14 @@
     "Shaders / TMUs / ROPs": "10752 / 336 / 112"
   },
   {
-    "Product Name": "GRID RTX T10-4",
-    "GPU Chip": "TU102",
-    "Released": "2020",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "4 GB, GDDR6, 384 bit",
-    "GPU clock": "1065 MHz",
-    "Memory clock": "1750 MHz",
-    "Shaders / TMUs / ROPs": "4608 / 288 / 96"
+    "Product Name": "A40 PCIe",
+    "GPU Chip": "GA102",
+    "Released": "Oct 5th, 2020",
+    "Bus": "PCIe 4.0 x16",
+    "Memory": "48 GB, GDDR6, 384 bit",
+    "GPU clock": "1305 MHz",
+    "Memory clock": "1812 MHz",
+    "Shaders / TMUs / ROPs": "10752 / 336 / 112"
   },
   {
     "Product Name": "Xe DG1",
@@ -3560,24 +3550,14 @@
     "Shaders / TMUs / ROPs": "640 / 40 / 20"
   },
   {
-    "Product Name": "UHD Graphics 32EU Mobile",
-    "GPU Chip": "Elkhart Lake GT1",
-    "Released": "Sep 23rd, 2020",
-    "Bus": "Ring Bus",
-    "Memory": "System Shared",
-    "GPU clock": "400 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "256 / 16 / 8"
-  },
-  {
-    "Product Name": "UHD Graphics 16EU Mobile",
-    "GPU Chip": "Elkhart Lake GT1",
-    "Released": "Sep 23rd, 2020",
-    "Bus": "Ring Bus",
-    "Memory": "System Shared",
-    "GPU clock": "250 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+    "Product Name": "GRID RTX T10-4",
+    "GPU Chip": "TU102",
+    "Released": "2020",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "4 GB, GDDR6, 384 bit",
+    "GPU clock": "1065 MHz",
+    "Memory clock": "1750 MHz",
+    "Shaders / TMUs / ROPs": "4608 / 288 / 96"
   },
   {
     "Product Name": "GRID RTX T10-2",
@@ -3610,14 +3590,24 @@
     "Shaders / TMUs / ROPs": "3072 / 192 / 96"
   },
   {
-    "Product Name": "Iris Xe Graphics G7 80EU Mobile",
-    "GPU Chip": "Tiger Lake GT2",
-    "Released": "Sep 2nd, 2020",
+    "Product Name": "UHD Graphics 16EU Mobile",
+    "GPU Chip": "Elkhart Lake GT1",
+    "Released": "Sep 23rd, 2020",
     "Bus": "Ring Bus",
     "Memory": "System Shared",
-    "GPU clock": "300 MHz",
+    "GPU clock": "250 MHz",
     "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "640 / 40 / 20"
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+  },
+  {
+    "Product Name": "UHD Graphics 32EU Mobile",
+    "GPU Chip": "Elkhart Lake GT1",
+    "Released": "Sep 23rd, 2020",
+    "Bus": "Ring Bus",
+    "Memory": "System Shared",
+    "GPU clock": "400 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "256 / 16 / 8"
   },
   {
     "Product Name": "Iris Xe Graphics G4 48EU Mobile",
@@ -3630,6 +3620,16 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 12"
   },
   {
+    "Product Name": "Iris Xe Graphics G7 80EU Mobile",
+    "GPU Chip": "Tiger Lake GT2",
+    "Released": "Sep 2nd, 2020",
+    "Bus": "Ring Bus",
+    "Memory": "System Shared",
+    "GPU clock": "300 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "640 / 40 / 20"
+  },
+  {
     "Product Name": "Iris Xe Graphics G7 96EU Mobile",
     "GPU Chip": "Tiger Lake GT2",
     "Released": "Sep 2nd, 2020",
@@ -3640,16 +3640,6 @@
     "Shaders / TMUs / ROPs": "768 / 48 / 24"
   },
   {
-    "Product Name": "GeForce RTX 3070",
-    "GPU Chip": "GA104",
-    "Released": "Sep 1st, 2020",
-    "Bus": "PCIe 4.0 x16",
-    "Memory": "8 GB, GDDR6, 256 bit",
-    "GPU clock": "1500 MHz",
-    "Memory clock": "1750 MHz",
-    "Shaders / TMUs / ROPs": "5888 / 184 / 96"
-  },
-  {
     "Product Name": "GeForce RTX 3080",
     "GPU Chip": "GA102",
     "Released": "Sep 1st, 2020",
@@ -3658,6 +3648,16 @@
     "GPU clock": "1440 MHz",
     "Memory clock": "1188 MHz",
     "Shaders / TMUs / ROPs": "8704 / 272 / 96"
+  },
+  {
+    "Product Name": "GeForce RTX 3070",
+    "GPU Chip": "GA104",
+    "Released": "Sep 1st, 2020",
+    "Bus": "PCIe 4.0 x16",
+    "Memory": "8 GB, GDDR6, 256 bit",
+    "GPU clock": "1500 MHz",
+    "Memory clock": "1750 MHz",
+    "Shaders / TMUs / ROPs": "5888 / 184 / 96"
   },
   {
     "Product Name": "GeForce RTX 3090",
@@ -3700,6 +3700,16 @@
     "Shaders / TMUs / ROPs": "896 / 56 / 32"
   },
   {
+    "Product Name": "Radeon Pro 5700",
+    "GPU Chip": "Navi 10",
+    "Released": "Aug 4th, 2020",
+    "Bus": "PCIe 4.0 x16",
+    "Memory": "8 GB, GDDR6, 256 bit",
+    "GPU clock": "1243 MHz",
+    "Memory clock": "1500 MHz",
+    "Shaders / TMUs / ROPs": "2304 / 144 / 64"
+  },
+  {
     "Product Name": "Radeon Pro 5700 XT",
     "GPU Chip": "Navi 10",
     "Released": "Aug 4th, 2020",
@@ -3718,16 +3728,6 @@
     "GPU clock": "1187 MHz",
     "Memory clock": "1750 MHz",
     "Shaders / TMUs / ROPs": "1536 / 96 / 32"
-  },
-  {
-    "Product Name": "Radeon Pro 5700",
-    "GPU Chip": "Navi 10",
-    "Released": "Aug 4th, 2020",
-    "Bus": "PCIe 4.0 x16",
-    "Memory": "8 GB, GDDR6, 256 bit",
-    "GPU clock": "1243 MHz",
-    "Memory clock": "1500 MHz",
-    "Shaders / TMUs / ROPs": "2304 / 144 / 64"
   },
   {
     "Product Name": "Radeon Pro 5300",
@@ -9320,6 +9320,16 @@
     "Shaders / TMUs / ROPs": "768 / 48 / 32"
   },
   {
+    "Product Name": "Quadro M600M",
+    "GPU Chip": "GM107",
+    "Released": "Aug 18th, 2015",
+    "Bus": "MXM-A (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "837 MHz",
+    "Memory clock": "1253 MHz",
+    "Shaders / TMUs / ROPs": "384 / 16 / 8"
+  },
+  {
     "Product Name": "Quadro M5000M",
     "GPU Chip": "GM204",
     "Released": "Aug 18th, 2015",
@@ -9340,26 +9350,6 @@
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
   },
   {
-    "Product Name": "Quadro M4000M",
-    "GPU Chip": "GM204",
-    "Released": "Aug 18th, 2015",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "975 MHz",
-    "Memory clock": "1253 MHz",
-    "Shaders / TMUs / ROPs": "1280 / 80 / 64"
-  },
-  {
-    "Product Name": "Quadro M600M",
-    "GPU Chip": "GM107",
-    "Released": "Aug 18th, 2015",
-    "Bus": "MXM-A (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "837 MHz",
-    "Memory clock": "1253 MHz",
-    "Shaders / TMUs / ROPs": "384 / 16 / 8"
-  },
-  {
     "Product Name": "Quadro M1000M",
     "GPU Chip": "GM107",
     "Released": "Aug 18th, 2015",
@@ -9368,6 +9358,16 @@
     "GPU clock": "993 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "512 / 32 / 16"
+  },
+  {
+    "Product Name": "Quadro M4000M",
+    "GPU Chip": "GM204",
+    "Released": "Aug 18th, 2015",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "975 MHz",
+    "Memory clock": "1253 MHz",
+    "Shaders / TMUs / ROPs": "1280 / 80 / 64"
   },
   {
     "Product Name": "Radeon R9 FURY",
@@ -9430,16 +9430,6 @@
     "Shaders / TMUs / ROPs": "1792 / 112 / 32"
   },
   {
-    "Product Name": "Radeon R9 390",
-    "GPU Chip": "Grenada",
-    "Released": "Jun 18th, 2015",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "8 GB, GDDR5, 512 bit",
-    "GPU clock": "1000 MHz",
-    "Memory clock": "1500 MHz",
-    "Shaders / TMUs / ROPs": "2560 / 160 / 64"
-  },
-  {
     "Product Name": "Radeon R7 360",
     "GPU Chip": "Tobago",
     "Released": "Jun 18th, 2015",
@@ -9468,6 +9458,16 @@
     "GPU clock": "925 MHz",
     "Memory clock": "1400 MHz",
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
+  },
+  {
+    "Product Name": "Radeon R9 390",
+    "GPU Chip": "Grenada",
+    "Released": "Jun 18th, 2015",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "8 GB, GDDR5, 512 bit",
+    "GPU clock": "1000 MHz",
+    "Memory clock": "1500 MHz",
+    "Shaders / TMUs / ROPs": "2560 / 160 / 64"
   },
   {
     "Product Name": "Radeon R9 390X",
@@ -9510,13 +9510,13 @@
     "Shaders / TMUs / ROPs": "2816 / 176 / 96"
   },
   {
-    "Product Name": "Radeon R7 A360",
-    "GPU Chip": "Meso",
+    "Product Name": "Radeon R5 340X OEM",
+    "GPU Chip": "Oland",
     "Released": "May 5th, 2015",
     "Bus": "PCIe 3.0 x8",
     "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "1100 MHz",
-    "Memory clock": "900 MHz",
+    "GPU clock": "900 MHz",
+    "Memory clock": "1000 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
@@ -9540,16 +9540,6 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
-    "Product Name": "Radeon R7 340 OEM",
-    "GPU Chip": "Oland",
-    "Released": "May 5th, 2015",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "730 MHz",
-    "Memory clock": "1000 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
     "Product Name": "Radeon R9 380 OEM",
     "GPU Chip": "Antigua",
     "Released": "May 5th, 2015",
@@ -9558,6 +9548,16 @@
     "GPU clock": "918 MHz",
     "Memory clock": "1375 MHz",
     "Shaders / TMUs / ROPs": "1792 / 112 / 32"
+  },
+  {
+    "Product Name": "Radeon R7 340 OEM",
+    "GPU Chip": "Oland",
+    "Released": "May 5th, 2015",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "730 MHz",
+    "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "Radeon R9 M370X Mac Edition",
@@ -9600,14 +9600,14 @@
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
   },
   {
-    "Product Name": "Radeon R9 360 OEM",
-    "GPU Chip": "Tobago",
+    "Product Name": "Radeon R9 370",
+    "GPU Chip": "Trinidad",
     "Released": "May 5th, 2015",
     "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "1000 MHz",
-    "Memory clock": "1625 MHz",
-    "Shaders / TMUs / ROPs": "768 / 48 / 16"
+    "Memory": "2 GB, GDDR5, 256 bit",
+    "GPU clock": "925 MHz",
+    "Memory clock": "1400 MHz",
+    "Shaders / TMUs / ROPs": "1280 / 80 / 32"
   },
   {
     "Product Name": "Radeon R9 M390X",
@@ -9680,16 +9680,6 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
-    "Product Name": "Radeon R9 370",
-    "GPU Chip": "Trinidad",
-    "Released": "May 5th, 2015",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 256 bit",
-    "GPU clock": "925 MHz",
-    "Memory clock": "1400 MHz",
-    "Shaders / TMUs / ROPs": "1280 / 80 / 32"
-  },
-  {
     "Product Name": "Radeon R7 350X OEM",
     "GPU Chip": "Oland",
     "Released": "May 5th, 2015",
@@ -9698,6 +9688,16 @@
     "GPU clock": "1000 MHz",
     "Memory clock": "1000 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R9 360 OEM",
+    "GPU Chip": "Tobago",
+    "Released": "May 5th, 2015",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "1000 MHz",
+    "Memory clock": "1625 MHz",
+    "Shaders / TMUs / ROPs": "768 / 48 / 16"
   },
   {
     "Product Name": "Radeon R9 M375",
@@ -9718,16 +9718,6 @@
     "GPU clock": "943 MHz",
     "Memory clock": "1000 MHz",
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R5 340X OEM",
-    "GPU Chip": "Oland",
-    "Released": "May 5th, 2015",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "900 MHz",
-    "Memory clock": "1000 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "Radeon R5 340 OEM",
@@ -9760,6 +9750,16 @@
     "Shaders / TMUs / ROPs": "160 / 8 / 4"
   },
   {
+    "Product Name": "Radeon R5 310 OEM",
+    "GPU Chip": "Caicos",
+    "Released": "May 5th, 2015",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "775 MHz",
+    "Memory clock": "805 MHz",
+    "Shaders / TMUs / ROPs": "160 / 8 / 4"
+  },
+  {
     "Product Name": "Radeon R7 M380",
     "GPU Chip": "Tropo",
     "Released": "May 5th, 2015",
@@ -9780,14 +9780,14 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
-    "Product Name": "Radeon R5 310 OEM",
-    "GPU Chip": "Caicos",
+    "Product Name": "Radeon R7 A360",
+    "GPU Chip": "Meso",
     "Released": "May 5th, 2015",
-    "Bus": "PCIe 2.0 x16",
+    "Bus": "PCIe 3.0 x8",
     "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "775 MHz",
-    "Memory clock": "805 MHz",
-    "Shaders / TMUs / ROPs": "160 / 8 / 4"
+    "GPU clock": "1100 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "Radeon R5 M315",
@@ -9895,7 +9895,7 @@
     "Released": "Apr 14th, 2015",
     "Bus": "PCIe 3.0 x16",
     "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "980 MHz",
+    "GPU clock": "1006 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
@@ -9905,7 +9905,7 @@
     "Released": "Apr 14th, 2015",
     "Bus": "PCIe 3.0 x16",
     "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "1006 MHz",
+    "GPU clock": "980 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
@@ -10050,16 +10050,6 @@
     "Shaders / TMUs / ROPs": "384 / 16 / 8"
   },
   {
-    "Product Name": "GeForce 930M",
-    "GPU Chip": "GM108S",
-    "Released": "Mar 13th, 2015",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "549 MHz",
-    "Memory clock": "800 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
     "Product Name": "Radeon R9 270 1024SP",
     "GPU Chip": "Pitcairn",
     "Released": "Mar 13th, 2015",
@@ -10068,6 +10058,16 @@
     "GPU clock": "900 MHz",
     "Memory clock": "1200 MHz",
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
+  },
+  {
+    "Product Name": "GeForce 930M",
+    "GPU Chip": "GM108S",
+    "Released": "Mar 13th, 2015",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "928 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "GeForce 930A",
@@ -10115,8 +10115,8 @@
     "Released": "Mar 13th, 2015",
     "Bus": "PCIe 3.0 x8",
     "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "928 MHz",
-    "Memory clock": "900 MHz",
+    "GPU clock": "549 MHz",
+    "Memory clock": "800 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
@@ -10230,12 +10230,12 @@
     "Shaders / TMUs / ROPs": "768 / 48 / 16"
   },
   {
-    "Product Name": "Radeon R3 Mobile Graphics",
+    "Product Name": "Radeon R3E Mobile Graphics",
     "GPU Chip": "Beema",
     "Released": "Jan 28th, 2015",
     "Bus": "IGP",
     "Memory": "System Shared",
-    "GPU clock": "600 MHz",
+    "GPU clock": "351 MHz",
     "Memory clock": "System Shared",
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
@@ -10270,12 +10270,12 @@
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
-    "Product Name": "Radeon R3E Mobile Graphics",
+    "Product Name": "Radeon R3 Mobile Graphics",
     "GPU Chip": "Beema",
     "Released": "Jan 28th, 2015",
     "Bus": "IGP",
     "Memory": "System Shared",
-    "GPU clock": "351 MHz",
+    "GPU clock": "600 MHz",
     "Memory clock": "System Shared",
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
@@ -10300,32 +10300,32 @@
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
   },
   {
-    "Product Name": "GeForce GTX 965M",
-    "GPU Chip": "GM204",
-    "Released": "Jan 9th, 2015",
-    "Bus": "MXM-B (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "924 MHz",
-    "Memory clock": "1253 MHz",
-    "Shaders / TMUs / ROPs": "1024 / 64 / 32"
-  },
-  {
-    "Product Name": "GeForce GTX 965M",
-    "GPU Chip": "GM204",
-    "Released": "Jan 9th, 2015",
-    "Bus": "MXM-B (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "924 MHz",
-    "Memory clock": "1253 MHz",
-    "Shaders / TMUs / ROPs": "1024 / 64 / 32"
-  },
-  {
     "Product Name": "GeForce GTX 965M 4 GB",
     "GPU Chip": "GM204",
     "Released": "Jan 9th, 2015",
     "Bus": "MXM-B (3.0)",
     "Memory": "4 GB, GDDR5, 128 bit",
     "GPU clock": "935 MHz",
+    "Memory clock": "1253 MHz",
+    "Shaders / TMUs / ROPs": "1024 / 64 / 32"
+  },
+  {
+    "Product Name": "GeForce GTX 965M",
+    "GPU Chip": "GM204",
+    "Released": "Jan 9th, 2015",
+    "Bus": "MXM-B (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "924 MHz",
+    "Memory clock": "1253 MHz",
+    "Shaders / TMUs / ROPs": "1024 / 64 / 32"
+  },
+  {
+    "Product Name": "GeForce GTX 965M",
+    "GPU Chip": "GM204",
+    "Released": "Jan 9th, 2015",
+    "Bus": "MXM-B (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "924 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "1024 / 64 / 32"
   },
@@ -10400,26 +10400,6 @@
     "Shaders / TMUs / ROPs": "192 / 8 / 4"
   },
   {
-    "Product Name": "Radeon R5 M255",
-    "GPU Chip": "Topaz",
-    "Released": "Oct 12th, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "925 MHz",
-    "Memory clock": "1000 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 M265DX",
-    "GPU Chip": "Topaz",
-    "Released": "Oct 12th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "925 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
     "Product Name": "Radeon R6 M255DX",
     "GPU Chip": "Topaz",
     "Released": "Oct 12th, 2014",
@@ -10440,11 +10420,31 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
+    "Product Name": "Radeon R5 M255",
+    "GPU Chip": "Topaz",
+    "Released": "Oct 12th, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "925 MHz",
+    "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 M265DX",
+    "GPU Chip": "Topaz",
+    "Released": "Oct 12th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "925 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
     "Product Name": "GeForce GTX 970M",
     "GPU Chip": "GM204",
     "Released": "Oct 7th, 2014",
     "Bus": "MXM-B (3.0)",
-    "Memory": "3 GB, GDDR5, 192 bit",
+    "Memory": "6 GB, GDDR5, 192 bit",
     "GPU clock": "924 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "1280 / 80 / 48"
@@ -10454,7 +10454,7 @@
     "GPU Chip": "GM204",
     "Released": "Oct 7th, 2014",
     "Bus": "MXM-B (3.0)",
-    "Memory": "6 GB, GDDR5, 192 bit",
+    "Memory": "3 GB, GDDR5, 192 bit",
     "GPU clock": "924 MHz",
     "Memory clock": "1253 MHz",
     "Shaders / TMUs / ROPs": "1280 / 80 / 48"
@@ -10500,14 +10500,14 @@
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
-    "Product Name": "Radeon R5 A220",
-    "GPU Chip": "Caicos",
+    "Product Name": "Radeon R5 A255",
+    "GPU Chip": "Topaz",
     "Released": "2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "775 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "160 / 8 / 4"
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "1024 MB, GDDR5, 128 bit",
+    "GPU clock": "925 MHz",
+    "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "Radeon R5 A240",
@@ -10520,24 +10520,14 @@
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
-    "Product Name": "Radeon R5 A240",
-    "GPU Chip": "Jet",
+    "Product Name": "Radeon R5 A220",
+    "GPU Chip": "Caicos",
     "Released": "2014",
-    "Bus": "PCIe 3.0 x8",
+    "Bus": "PCIe 2.0 x16",
     "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "1030 MHz",
+    "GPU clock": "775 MHz",
     "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R5 A255",
-    "GPU Chip": "Topaz",
-    "Released": "2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "925 MHz",
-    "Memory clock": "1000 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+    "Shaders / TMUs / ROPs": "160 / 8 / 4"
   },
   {
     "Product Name": "Radeon R7 A260",
@@ -10548,6 +10538,16 @@
     "GPU clock": "900 MHz",
     "Memory clock": "900 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R5 A240",
+    "GPU Chip": "Jet",
+    "Released": "2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "1030 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
     "Product Name": "GeForce GTX 980",
@@ -10580,16 +10580,6 @@
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
-    "Product Name": "Radeon R5 Mobile Graphics",
-    "GPU Chip": "Spectre SL",
-    "Released": "Sep 17th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "626 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "256 / 16 / 8"
-  },
-  {
     "Product Name": "Radeon R6 Mobile Graphics",
     "GPU Chip": "Spectre Lite",
     "Released": "Sep 17th, 2014",
@@ -10598,6 +10588,16 @@
     "GPU clock": "533 MHz",
     "Memory clock": "System Shared",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R4 Mobile Graphics",
+    "GPU Chip": "Spectre SL",
+    "Released": "Sep 17th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "533 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "192 / 12 / 8"
   },
   {
     "Product Name": "Radeon R5 Graphics",
@@ -10610,14 +10610,14 @@
     "Shaders / TMUs / ROPs": "256 / 16 / 4"
   },
   {
-    "Product Name": "Radeon R4 Mobile Graphics",
+    "Product Name": "Radeon R5 Mobile Graphics",
     "GPU Chip": "Spectre SL",
     "Released": "Sep 17th, 2014",
     "Bus": "IGP",
     "Memory": "System Shared",
-    "GPU clock": "533 MHz",
+    "GPU clock": "626 MHz",
     "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "192 / 12 / 8"
+    "Shaders / TMUs / ROPs": "256 / 16 / 8"
   },
   {
     "Product Name": "Radeon R5 Graphics",
@@ -10670,14 +10670,24 @@
     "Shaders / TMUs / ROPs": "384 / 48 / 6"
   },
   {
-    "Product Name": "HD Graphics 6000 Mobile",
-    "GPU Chip": "Broadwell GT3",
+    "Product Name": "HD Graphics 5300 Mobile",
+    "GPU Chip": "Broadwell GT2",
     "Released": "Sep 5th, 2014",
     "Bus": "Ring Bus",
     "Memory": "System Shared",
     "GPU clock": "300 MHz",
     "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "384 / 48 / 6"
+    "Shaders / TMUs / ROPs": "192 / 24 / 3"
+  },
+  {
+    "Product Name": "HD Graphics 5600 Mobile",
+    "GPU Chip": "Broadwell GT2",
+    "Released": "Sep 5th, 2014",
+    "Bus": "Ring Bus",
+    "Memory": "System Shared",
+    "GPU clock": "300 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "192 / 24 / 3"
   },
   {
     "Product Name": "HD Graphics P5700",
@@ -10700,18 +10710,18 @@
     "Shaders / TMUs / ROPs": "192 / 24 / 3"
   },
   {
-    "Product Name": "HD Graphics 5600 Mobile",
-    "GPU Chip": "Broadwell GT2",
+    "Product Name": "Iris Pro Graphics P6300",
+    "GPU Chip": "Broadwell GT3e",
     "Released": "Sep 5th, 2014",
     "Bus": "Ring Bus",
     "Memory": "System Shared",
     "GPU clock": "300 MHz",
     "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "192 / 24 / 3"
+    "Shaders / TMUs / ROPs": "384 / 48 / 6"
   },
   {
-    "Product Name": "Iris Pro Graphics P6300",
-    "GPU Chip": "Broadwell GT3e",
+    "Product Name": "HD Graphics 6000 Mobile",
+    "GPU Chip": "Broadwell GT3",
     "Released": "Sep 5th, 2014",
     "Bus": "Ring Bus",
     "Memory": "System Shared",
@@ -10730,16 +10740,6 @@
     "Shaders / TMUs / ROPs": "384 / 48 / 6"
   },
   {
-    "Product Name": "HD Graphics 5300 Mobile",
-    "GPU Chip": "Broadwell GT2",
-    "Released": "Sep 5th, 2014",
-    "Bus": "Ring Bus",
-    "Memory": "System Shared",
-    "GPU clock": "300 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "192 / 24 / 3"
-  },
-  {
     "Product Name": "Radeon R9 285",
     "GPU Chip": "Tonga",
     "Released": "Sep 2nd, 2014",
@@ -10750,16 +10750,6 @@
     "Shaders / TMUs / ROPs": "1792 / 112 / 32"
   },
   {
-    "Product Name": "FirePro W6170M",
-    "GPU Chip": "Emerald",
-    "Released": "Aug 25th, 2014",
-    "Bus": "MXM-B (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "1100 MHz",
-    "Memory clock": "1500 MHz",
-    "Shaders / TMUs / ROPs": "896 / 56 / 16"
-  },
-  {
     "Product Name": "FirePro W5170M",
     "GPU Chip": "Tropo",
     "Released": "Aug 25th, 2014",
@@ -10768,6 +10758,16 @@
     "GPU clock": "900 MHz",
     "Memory clock": "1125 MHz",
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
+  },
+  {
+    "Product Name": "FirePro W6170M",
+    "GPU Chip": "Emerald",
+    "Released": "Aug 25th, 2014",
+    "Bus": "MXM-B (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "1100 MHz",
+    "Memory clock": "1500 MHz",
+    "Shaders / TMUs / ROPs": "896 / 56 / 16"
   },
   {
     "Product Name": "Quadro K200M",
@@ -10810,16 +10810,6 @@
     "Shaders / TMUs / ROPs": "512 / 32 / 16"
   },
   {
-    "Product Name": "FirePro W7100",
-    "GPU Chip": "Tonga",
-    "Released": "Aug 12th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "8 GB, GDDR5, 256 bit",
-    "GPU clock": "920 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "1792 / 112 / 32"
-  },
-  {
     "Product Name": "Radeon R7 265X OEM",
     "GPU Chip": "Curacao",
     "Released": "Aug 12th, 2014",
@@ -10840,6 +10830,16 @@
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
+    "Product Name": "FirePro W7100",
+    "GPU Chip": "Tonga",
+    "Released": "Aug 12th, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "8 GB, GDDR5, 256 bit",
+    "GPU clock": "920 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "1792 / 112 / 32"
+  },
+  {
     "Product Name": "FirePro S4000X",
     "GPU Chip": "Venus",
     "Released": "Aug 7th, 2014",
@@ -10848,16 +10848,6 @@
     "GPU clock": "725 MHz",
     "Memory clock": "1125 MHz",
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
-  },
-  {
-    "Product Name": "FirePro S9150",
-    "GPU Chip": "Hawaii",
-    "Released": "Aug 7th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "16 GB, GDDR5, 512 bit",
-    "GPU clock": "900 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "2816 / 176 / 64"
   },
   {
     "Product Name": "FirePro S9050",
@@ -10870,34 +10860,14 @@
     "Shaders / TMUs / ROPs": "1792 / 112 / 32"
   },
   {
-    "Product Name": "Quadro K4200",
-    "GPU Chip": "GK104",
-    "Released": "Jul 22nd, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "771 MHz",
-    "Memory clock": "1350 MHz",
-    "Shaders / TMUs / ROPs": "1344 / 112 / 32"
-  },
-  {
-    "Product Name": "GeForce 830A",
-    "GPU Chip": "GM108",
-    "Released": "Jul 22nd, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "1082 MHz",
-    "Memory clock": "1001 MHz",
-    "Shaders / TMUs / ROPs": "256 / 16 / 8"
-  },
-  {
-    "Product Name": "Quadro K2200",
-    "GPU Chip": "GM107",
-    "Released": "Jul 22nd, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "4 GB, GDDR5, 128 bit",
-    "GPU clock": "1046 MHz",
-    "Memory clock": "1253 MHz",
-    "Shaders / TMUs / ROPs": "640 / 40 / 16"
+    "Product Name": "FirePro S9150",
+    "GPU Chip": "Hawaii",
+    "Released": "Aug 7th, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "16 GB, GDDR5, 512 bit",
+    "GPU clock": "900 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "2816 / 176 / 64"
   },
   {
     "Product Name": "GeForce 810A",
@@ -10910,24 +10880,14 @@
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
-    "Product Name": "GeForce 805A",
-    "GPU Chip": "GK208",
+    "Product Name": "Quadro K620",
+    "GPU Chip": "GM107",
     "Released": "Jul 22nd, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "719 MHz",
-    "Memory clock": "1001 MHz",
-    "Shaders / TMUs / ROPs": "192 / 16 / 8"
-  },
-  {
-    "Product Name": "Quadro K5200",
-    "GPU Chip": "GK110B",
-    "Released": "Jul 22nd, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "8 GB, GDDR5, 256 bit",
-    "GPU clock": "667 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "2304 / 192 / 48"
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "1058 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 16"
   },
   {
     "Product Name": "Quadro K420",
@@ -10940,14 +10900,54 @@
     "Shaders / TMUs / ROPs": "192 / 16 / 16"
   },
   {
-    "Product Name": "Quadro K620",
+    "Product Name": "GeForce 805A",
+    "GPU Chip": "GK208",
+    "Released": "Jul 22nd, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "719 MHz",
+    "Memory clock": "1001 MHz",
+    "Shaders / TMUs / ROPs": "192 / 16 / 8"
+  },
+  {
+    "Product Name": "GeForce 830A",
+    "GPU Chip": "GM108",
+    "Released": "Jul 22nd, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "1082 MHz",
+    "Memory clock": "1001 MHz",
+    "Shaders / TMUs / ROPs": "256 / 16 / 8"
+  },
+  {
+    "Product Name": "Quadro K5200",
+    "GPU Chip": "GK110B",
+    "Released": "Jul 22nd, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "8 GB, GDDR5, 256 bit",
+    "GPU clock": "667 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "2304 / 192 / 48"
+  },
+  {
+    "Product Name": "Quadro K4200",
+    "GPU Chip": "GK104",
+    "Released": "Jul 22nd, 2014",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "771 MHz",
+    "Memory clock": "1350 MHz",
+    "Shaders / TMUs / ROPs": "1344 / 112 / 32"
+  },
+  {
+    "Product Name": "Quadro K2200",
     "GPU Chip": "GM107",
     "Released": "Jul 22nd, 2014",
     "Bus": "PCIe 2.0 x16",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "1058 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 16"
+    "Memory": "4 GB, GDDR5, 128 bit",
+    "GPU clock": "1046 MHz",
+    "Memory clock": "1253 MHz",
+    "Shaders / TMUs / ROPs": "640 / 40 / 16"
   },
   {
     "Product Name": "Quadro K2200M",
@@ -10970,36 +10970,6 @@
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
-    "Product Name": "GRID K120Q",
-    "GPU Chip": "GK107",
-    "Released": "Jul 2nd, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "512 MB, DDR3, 128 bit",
-    "GPU clock": "850 MHz",
-    "Memory clock": "891 MHz",
-    "Shaders / TMUs / ROPs": "192 / 16 / 16"
-  },
-  {
-    "Product Name": "GRID K520Q",
-    "GPU Chip": "GK104",
-    "Released": "Jul 2nd, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "745 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
-  },
-  {
-    "Product Name": "GRID K560Q",
-    "GPU Chip": "GK104",
-    "Released": "Jul 2nd, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "745 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
-  },
-  {
     "Product Name": "GRID K220Q",
     "GPU Chip": "GK104",
     "Released": "Jul 2nd, 2014",
@@ -11020,6 +10990,16 @@
     "Shaders / TMUs / ROPs": "1536 / 128 / 32"
   },
   {
+    "Product Name": "GRID K560Q",
+    "GPU Chip": "GK104",
+    "Released": "Jul 2nd, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "745 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
+  },
+  {
     "Product Name": "GRID K500",
     "GPU Chip": "GK104",
     "Released": "Jul 2nd, 2014",
@@ -11030,7 +11010,27 @@
     "Shaders / TMUs / ROPs": "1536 / 128 / 32"
   },
   {
-    "Product Name": "GeForce 720A",
+    "Product Name": "GRID K120Q",
+    "GPU Chip": "GK107",
+    "Released": "Jul 2nd, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "512 MB, DDR3, 128 bit",
+    "GPU clock": "850 MHz",
+    "Memory clock": "891 MHz",
+    "Shaders / TMUs / ROPs": "192 / 16 / 16"
+  },
+  {
+    "Product Name": "GRID K520Q",
+    "GPU Chip": "GK104",
+    "Released": "Jul 2nd, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "745 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
+  },
+  {
+    "Product Name": "GeForce GT 720A",
     "GPU Chip": "GF117",
     "Released": "Jul 1st, 2014",
     "Bus": "PCIe 2.0 x16",
@@ -11040,7 +11040,17 @@
     "Shaders / TMUs / ROPs": "96 / 16 / 8"
   },
   {
-    "Product Name": "GeForce GT 720A",
+    "Product Name": "GeForce 705A",
+    "GPU Chip": "GF119S",
+    "Released": "Jul 1st, 2014",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "475 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "48 / 8 / 4"
+  },
+  {
+    "Product Name": "GeForce 720A",
     "GPU Chip": "GF117",
     "Released": "Jul 1st, 2014",
     "Bus": "PCIe 2.0 x16",
@@ -11058,16 +11068,6 @@
     "GPU clock": "719 MHz",
     "Memory clock": "1001 MHz",
     "Shaders / TMUs / ROPs": "384 / 32 / 8"
-  },
-  {
-    "Product Name": "GeForce 705A",
-    "GPU Chip": "GF119S",
-    "Released": "Jul 1st, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "475 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "48 / 8 / 4"
   },
   {
     "Product Name": "Radeon R9 290X2",
@@ -11130,26 +11130,6 @@
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
-    "Product Name": "Radeon R4 Mobile Graphics",
-    "GPU Chip": "Beema",
-    "Released": "Jun 11th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "800 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
-  },
-  {
-    "Product Name": "Radeon R7 M265DX",
-    "GPU Chip": "Topaz",
-    "Released": "Jun 11th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "900 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
     "Product Name": "Radeon R7 M270DX",
     "GPU Chip": "Topaz",
     "Released": "Jun 11th, 2014",
@@ -11168,6 +11148,26 @@
     "GPU clock": "940 MHz",
     "Memory clock": "900 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 M265DX",
+    "GPU Chip": "Topaz",
+    "Released": "Jun 11th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "900 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R4 Mobile Graphics",
+    "GPU Chip": "Beema",
+    "Released": "Jun 11th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "800 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
     "Product Name": "Radeon R4E Mobile Graphics",
@@ -11280,16 +11280,6 @@
     "Shaders / TMUs / ROPs": "768 / 48 / 16"
   },
   {
-    "Product Name": "GeForce GT 710",
-    "GPU Chip": "GK208",
-    "Released": "Mar 27th, 2014",
-    "Bus": "PCIe 2.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "954 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "192 / 16 / 8"
-  },
-  {
     "Product Name": "GeForce GT 720",
     "GPU Chip": "GK208",
     "Released": "Mar 27th, 2014",
@@ -11298,16 +11288,6 @@
     "GPU clock": "967 MHz",
     "Memory clock": "900 MHz",
     "Shaders / TMUs / ROPs": "384 / 32 / 8"
-  },
-  {
-    "Product Name": "GeForce GT 710 PCIe x1",
-    "GPU Chip": "GK208B",
-    "Released": "Mar 27th, 2014",
-    "Bus": "PCIe 2.0 x1",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "954 MHz",
-    "Memory clock": "800 MHz",
-    "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
     "Product Name": "GeForce GT 705 OEM",
@@ -11327,6 +11307,26 @@
     "Memory": "2 GB, DDR3, 64 bit",
     "GPU clock": "954 MHz",
     "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "192 / 16 / 8"
+  },
+  {
+    "Product Name": "GeForce GT 710",
+    "GPU Chip": "GK208",
+    "Released": "Mar 27th, 2014",
+    "Bus": "PCIe 2.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "954 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "192 / 16 / 8"
+  },
+  {
+    "Product Name": "GeForce GT 710 PCIe x1",
+    "GPU Chip": "GK208B",
+    "Released": "Mar 27th, 2014",
+    "Bus": "PCIe 2.0 x1",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "954 MHz",
+    "Memory clock": "800 MHz",
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
@@ -11370,26 +11370,6 @@
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
   },
   {
-    "Product Name": "GeForce GTX 850A",
-    "GPU Chip": "GM107",
-    "Released": "Mar 17th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "902 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "640 / 40 / 16"
-  },
-  {
-    "Product Name": "GeForce 820A",
-    "GPU Chip": "GF117",
-    "Released": "Mar 17th, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "625 MHz",
-    "Memory clock": "1001 MHz",
-    "Shaders / TMUs / ROPs": "96 / 16 / 8"
-  },
-  {
     "Product Name": "GeForce 800M",
     "GPU Chip": "GF117",
     "Released": "Mar 17th, 2014",
@@ -11398,16 +11378,6 @@
     "GPU clock": "738 MHz",
     "Memory clock": "900 MHz",
     "Shaders / TMUs / ROPs": "48 / 8 / 8"
-  },
-  {
-    "Product Name": "GeForce 800A",
-    "GPU Chip": "GF119S",
-    "Released": "Mar 17th, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "475 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "48 / 8 / 4"
   },
   {
     "Product Name": "GeForce 840A",
@@ -11420,16 +11390,6 @@
     "Shaders / TMUs / ROPs": "384 / 16 / 8"
   },
   {
-    "Product Name": "GeForce 800A",
-    "GPU Chip": "GF119S",
-    "Released": "Mar 17th, 2014",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "475 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "48 / 8 / 4"
-  },
-  {
     "Product Name": "GeForce GTX 760A",
     "GPU Chip": "GK106",
     "Released": "Mar 17th, 2014",
@@ -11438,6 +11398,26 @@
     "GPU clock": "628 MHz",
     "Memory clock": "1002 MHz",
     "Shaders / TMUs / ROPs": "768 / 64 / 16"
+  },
+  {
+    "Product Name": "GeForce GTX 850A",
+    "GPU Chip": "GM107",
+    "Released": "Mar 17th, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "902 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "640 / 40 / 16"
+  },
+  {
+    "Product Name": "GeForce 800A",
+    "GPU Chip": "GF119S",
+    "Released": "Mar 17th, 2014",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "475 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "48 / 8 / 4"
   },
   {
     "Product Name": "GeForce 710A",
@@ -11450,34 +11430,24 @@
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
-    "Product Name": "GeForce 830M",
-    "GPU Chip": "GM108",
-    "Released": "Mar 12th, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "1082 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "256 / 16 / 8"
-  },
-  {
-    "Product Name": "GeForce 840M",
-    "GPU Chip": "GM108S",
-    "Released": "Mar 12th, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "1029 MHz",
+    "Product Name": "GeForce 820A",
+    "GPU Chip": "GF117",
+    "Released": "Mar 17th, 2014",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "625 MHz",
     "Memory clock": "1001 MHz",
-    "Shaders / TMUs / ROPs": "384 / 16 / 8"
+    "Shaders / TMUs / ROPs": "96 / 16 / 8"
   },
   {
-    "Product Name": "GeForce GTX 880M",
-    "GPU Chip": "GK104",
-    "Released": "Mar 12th, 2014",
-    "Bus": "MXM-B (3.0)",
-    "Memory": "8 GB, GDDR5, 256 bit",
-    "GPU clock": "954 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
+    "Product Name": "GeForce 800A",
+    "GPU Chip": "GF119S",
+    "Released": "Mar 17th, 2014",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "475 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "48 / 8 / 4"
   },
   {
     "Product Name": "GeForce GTX 850M",
@@ -11490,6 +11460,26 @@
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
   },
   {
+    "Product Name": "GeForce GTX 880M",
+    "GPU Chip": "GK104",
+    "Released": "Mar 12th, 2014",
+    "Bus": "MXM-B (3.0)",
+    "Memory": "8 GB, GDDR5, 256 bit",
+    "GPU clock": "954 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "1536 / 128 / 32"
+  },
+  {
+    "Product Name": "GeForce 830M",
+    "GPU Chip": "GM108",
+    "Released": "Mar 12th, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "1082 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "256 / 16 / 8"
+  },
+  {
     "Product Name": "GeForce GTX 870M",
     "GPU Chip": "GK104",
     "Released": "Mar 12th, 2014",
@@ -11498,6 +11488,16 @@
     "GPU clock": "941 MHz",
     "Memory clock": "1250 MHz",
     "Shaders / TMUs / ROPs": "1344 / 112 / 24"
+  },
+  {
+    "Product Name": "GeForce 840M",
+    "GPU Chip": "GM108S",
+    "Released": "Mar 12th, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "1029 MHz",
+    "Memory clock": "1001 MHz",
+    "Shaders / TMUs / ROPs": "384 / 16 / 8"
   },
   {
     "Product Name": "GeForce GTX 860M",
@@ -11550,16 +11550,6 @@
     "Shaders / TMUs / ROPs": "512 / 32 / 16"
   },
   {
-    "Product Name": "GeForce GTX TITAN BLACK",
-    "GPU Chip": "GK110B",
-    "Released": "Feb 18th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "6 GB, GDDR5, 384 bit",
-    "GPU clock": "889 MHz",
-    "Memory clock": "1750 MHz",
-    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
-  },
-  {
     "Product Name": "GeForce GTX 750 Ti",
     "GPU Chip": "GM107",
     "Released": "Feb 18th, 2014",
@@ -11568,6 +11558,16 @@
     "GPU clock": "1020 MHz",
     "Memory clock": "1350 MHz",
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
+  },
+  {
+    "Product Name": "GeForce GTX TITAN BLACK",
+    "GPU Chip": "GK110B",
+    "Released": "Feb 18th, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "6 GB, GDDR5, 384 bit",
+    "GPU clock": "889 MHz",
+    "Memory clock": "1750 MHz",
+    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
   },
   {
     "Product Name": "GeForce GTX 745 OEM",
@@ -11630,16 +11630,6 @@
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
-    "Product Name": "Radeon R9 M275X",
-    "GPU Chip": "Venus",
-    "Released": "Jan 28th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "900 MHz",
-    "Memory clock": "1125 MHz",
-    "Shaders / TMUs / ROPs": "640 / 40 / 16"
-  },
-  {
     "Product Name": "Radeon R9 M275",
     "GPU Chip": "Venus",
     "Released": "Jan 28th, 2014",
@@ -11647,6 +11637,16 @@
     "Memory": "2 GB, GDDR5, 128 bit",
     "GPU clock": "900 MHz",
     "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "640 / 40 / 16"
+  },
+  {
+    "Product Name": "Radeon R9 M275X",
+    "GPU Chip": "Venus",
+    "Released": "Jan 28th, 2014",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "900 MHz",
+    "Memory clock": "1125 MHz",
     "Shaders / TMUs / ROPs": "640 / 40 / 16"
   },
   {
@@ -11740,14 +11740,14 @@
     "Shaders / TMUs / ROPs": "320 / 16 / 8"
   },
   {
-    "Product Name": "Radeon R9 M290X",
-    "GPU Chip": "Neptune",
+    "Product Name": "Radeon R7 M270",
+    "GPU Chip": "Opal",
     "Released": "Jan 9th, 2014",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "850 MHz",
-    "Memory clock": "1200 MHz",
-    "Shaders / TMUs / ROPs": "1280 / 80 / 32"
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "725 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "Radeon R7 M265",
@@ -11760,14 +11760,14 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
-    "Product Name": "Radeon R7 M270",
-    "GPU Chip": "Opal",
+    "Product Name": "Radeon R9 M290X",
+    "GPU Chip": "Neptune",
     "Released": "Jan 9th, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "725 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "850 MHz",
+    "Memory clock": "1200 MHz",
+    "Shaders / TMUs / ROPs": "1280 / 80 / 32"
   },
   {
     "Product Name": "Radeon R7 A265",
@@ -11780,6 +11780,16 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
+    "Product Name": "Radeon R7 M260DX",
+    "GPU Chip": "Jet",
+    "Released": "Jan 7th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "955 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
+  },
+  {
     "Product Name": "Radeon R5 A230",
     "GPU Chip": "Jet",
     "Released": "Jan 7th, 2014",
@@ -11787,6 +11797,26 @@
     "Memory": "4 GB, DDR3, 64 bit",
     "GPU clock": "780 MHz",
     "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
+  },
+  {
+    "Product Name": "Radeon R6 M255DX",
+    "GPU Chip": "Jet",
+    "Released": "Jan 7th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "780 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 M260DX",
+    "GPU Chip": "Jet",
+    "Released": "Jan 7th, 2014",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "780 MHz",
+    "Memory clock": "System Shared",
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
@@ -11800,7 +11830,17 @@
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
-    "Product Name": "Radeon R6 M255DX",
+    "Product Name": "Radeon R5 M230",
+    "GPU Chip": "Jet",
+    "Released": "Jan 7th, 2014",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "4 GB, DDR3, 64 bit",
+    "GPU clock": "780 MHz",
+    "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 M270DX",
     "GPU Chip": "Jet",
     "Released": "Jan 7th, 2014",
     "Bus": "IGP",
@@ -11817,46 +11857,6 @@
     "Memory": "System Shared",
     "GPU clock": "780 MHz",
     "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 M260DX",
-    "GPU Chip": "Jet",
-    "Released": "Jan 7th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "955 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 M270DX",
-    "GPU Chip": "Jet",
-    "Released": "Jan 7th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "780 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 M260DX",
-    "GPU Chip": "Jet",
-    "Released": "Jan 7th, 2014",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "780 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R5 M230",
-    "GPU Chip": "Jet",
-    "Released": "Jan 7th, 2014",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "4 GB, DDR3, 64 bit",
-    "GPU clock": "780 MHz",
-    "Memory clock": "1000 MHz",
     "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
@@ -11880,34 +11880,14 @@
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
   },
   {
-    "Product Name": "Radeon R9 255 OEM",
-    "GPU Chip": "Cape Verde",
-    "Released": "Dec 21st, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "900 MHz",
-    "Memory clock": "1150 MHz",
-    "Shaders / TMUs / ROPs": "512 / 32 / 16"
-  },
-  {
-    "Product Name": "Radeon R5 235 OEM",
-    "GPU Chip": "Caicos",
+    "Product Name": "Radeon R5 220 OEM",
+    "GPU Chip": "Cedar",
     "Released": "Dec 21st, 2013",
     "Bus": "PCIe 2.0 x16",
     "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "775 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "160 / 8 / 4"
-  },
-  {
-    "Product Name": "Radeon R5 235X OEM",
-    "GPU Chip": "Caicos",
-    "Released": "Dec 21st, 2013",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "875 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "160 / 8 / 4"
+    "GPU clock": "650 MHz",
+    "Memory clock": "533 MHz",
+    "Shaders / TMUs / ROPs": "80 / 8 / 4"
   },
   {
     "Product Name": "Radeon R9 260 OEM",
@@ -11930,14 +11910,34 @@
     "Shaders / TMUs / ROPs": "160 / 8 / 4"
   },
   {
-    "Product Name": "Radeon R5 220 OEM",
-    "GPU Chip": "Cedar",
+    "Product Name": "Radeon R5 235 OEM",
+    "GPU Chip": "Caicos",
     "Released": "Dec 21st, 2013",
     "Bus": "PCIe 2.0 x16",
     "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "650 MHz",
-    "Memory clock": "533 MHz",
-    "Shaders / TMUs / ROPs": "80 / 8 / 4"
+    "GPU clock": "775 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "160 / 8 / 4"
+  },
+  {
+    "Product Name": "Radeon R9 255 OEM",
+    "GPU Chip": "Cape Verde",
+    "Released": "Dec 21st, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "900 MHz",
+    "Memory clock": "1150 MHz",
+    "Shaders / TMUs / ROPs": "512 / 32 / 16"
+  },
+  {
+    "Product Name": "Radeon R5 235X OEM",
+    "GPU Chip": "Caicos",
+    "Released": "Dec 21st, 2013",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "875 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "160 / 8 / 4"
   },
   {
     "Product Name": "Radeon R7 250E",
@@ -11980,6 +11980,16 @@
     "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
   {
+    "Product Name": "Radeon HD 8180 IGP",
+    "GPU Chip": "Kalindi",
+    "Released": "Nov 2013",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "225 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+  },
+  {
     "Product Name": "Playstation 4 GPU",
     "GPU Chip": "Liverpool",
     "Released": "Nov 24th, 2013",
@@ -12010,14 +12020,14 @@
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
-    "Product Name": "Radeon HD 8180 IGP",
-    "GPU Chip": "Kalindi",
-    "Released": "Nov 2013",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "225 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+    "Product Name": "Tesla K40d",
+    "GPU Chip": "GK110B",
+    "Released": "Nov 22nd, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "12 GB, GDDR5, 384 bit",
+    "GPU clock": "745 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
   },
   {
     "Product Name": "Tesla K40m",
@@ -12060,16 +12070,6 @@
     "Shaders / TMUs / ROPs": "2880 / 240 / 48"
   },
   {
-    "Product Name": "Tesla K40d",
-    "GPU Chip": "GK110B",
-    "Released": "Nov 22nd, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "12 GB, GDDR5, 384 bit",
-    "GPU clock": "745 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
-  },
-  {
     "Product Name": "Xbox One GPU",
     "GPU Chip": "Durango",
     "Released": "Nov 22nd, 2013",
@@ -12098,6 +12098,16 @@
     "GPU clock": "900 MHz",
     "Memory clock": "1400 MHz",
     "Shaders / TMUs / ROPs": "1280 / 80 / 32"
+  },
+  {
+    "Product Name": "GeForce GT 755M Mac Edition",
+    "GPU Chip": "GK107",
+    "Released": "Nov 8th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "1024 MB, GDDR5, 128 bit",
+    "GPU clock": "1085 MHz",
+    "Memory clock": "1250 MHz",
+    "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
   {
     "Product Name": "GeForce GTX 780M Mac Edition",
@@ -12130,16 +12140,6 @@
     "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
   {
-    "Product Name": "GeForce GT 755M Mac Edition",
-    "GPU Chip": "GK107",
-    "Released": "Nov 8th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "1085 MHz",
-    "Memory clock": "1250 MHz",
-    "Shaders / TMUs / ROPs": "384 / 32 / 16"
-  },
-  {
     "Product Name": "GeForce GTX 780 Ti",
     "GPU Chip": "GK110B",
     "Released": "Nov 7th, 2013",
@@ -12158,16 +12158,6 @@
     "GPU clock": "947 MHz",
     "Memory clock": "1250 MHz",
     "Shaders / TMUs / ROPs": "2560 / 160 / 64"
-  },
-  {
-    "Product Name": "Radeon HD 8240 Mobile IGP",
-    "GPU Chip": "Kalindi",
-    "Released": "Nov 1st, 2013",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "400 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
     "Product Name": "Radeon R7 240 OEM",
@@ -12190,6 +12180,16 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
+    "Product Name": "Radeon HD 8240 Mobile IGP",
+    "GPU Chip": "Kalindi",
+    "Released": "Nov 1st, 2013",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "400 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+  },
+  {
     "Product Name": "Radeon HD 8550 OEM",
     "GPU Chip": "Turks",
     "Released": "Oct 25th, 2013",
@@ -12208,6 +12208,16 @@
     "GPU clock": "1000 MHz",
     "Memory clock": "1250 MHz",
     "Shaders / TMUs / ROPs": "2816 / 176 / 64"
+  },
+  {
+    "Product Name": "FirePro M5100",
+    "GPU Chip": "Venus",
+    "Released": "Oct 16th, 2013",
+    "Bus": "MXM-A (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "725 MHz",
+    "Memory clock": "1125 MHz",
+    "Shaders / TMUs / ROPs": "640 / 40 / 16"
   },
   {
     "Product Name": "FirePro M4150",
@@ -12230,16 +12240,6 @@
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
-    "Product Name": "FirePro M5100",
-    "GPU Chip": "Venus",
-    "Released": "Oct 16th, 2013",
-    "Bus": "MXM-A (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "725 MHz",
-    "Memory clock": "1125 MHz",
-    "Shaders / TMUs / ROPs": "640 / 40 / 16"
-  },
-  {
     "Product Name": "FirePro M6100",
     "GPU Chip": "Saturn",
     "Released": "Oct 16th, 2013",
@@ -12250,6 +12250,16 @@
     "Shaders / TMUs / ROPs": "768 / 48 / 16"
   },
   {
+    "Product Name": "Radeon R7 240",
+    "GPU Chip": "Oland",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "650 MHz",
+    "Memory clock": "1150 MHz",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
+  },
+  {
     "Product Name": "Radeon R7 250",
     "GPU Chip": "Oland",
     "Released": "Oct 8th, 2013",
@@ -12258,6 +12268,66 @@
     "GPU clock": "1000 MHz",
     "Memory clock": "1150 MHz",
     "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 260X",
+    "GPU Chip": "Bonaire",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "1100 MHz",
+    "Memory clock": "1625 MHz",
+    "Shaders / TMUs / ROPs": "896 / 56 / 16"
+  },
+  {
+    "Product Name": "Radeon R7 250 OEM",
+    "GPU Chip": "Oland",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "1000 MHz",
+    "Memory clock": "1000 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
+  },
+  {
+    "Product Name": "Radeon R7 250",
+    "GPU Chip": "Cape Verde",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "1024 MB, DDR3, 128 bit",
+    "GPU clock": "700 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "512 / 32 / 16"
+  },
+  {
+    "Product Name": "Tesla K40c",
+    "GPU Chip": "GK180",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "12 GB, GDDR5, 384 bit",
+    "GPU clock": "745 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
+  },
+  {
+    "Product Name": "Radeon R7 250",
+    "GPU Chip": "Cape Verde",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "1024 MB, DDR3, 128 bit",
+    "GPU clock": "925 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "512 / 32 / 16"
+  },
+  {
+    "Product Name": "Radeon R7 240",
+    "GPU Chip": "Oland",
+    "Released": "Oct 8th, 2013",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 128 bit",
+    "GPU clock": "730 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "320 / 20 / 8"
   },
   {
     "Product Name": "Radeon R9 280X",
@@ -12280,74 +12350,14 @@
     "Shaders / TMUs / ROPs": "1280 / 80 / 32"
   },
   {
-    "Product Name": "Radeon R7 240",
-    "GPU Chip": "Oland",
-    "Released": "Oct 8th, 2013",
+    "Product Name": "GeForce GT 635 OEM",
+    "GPU Chip": "GK208",
+    "Released": "Oct 1st, 2013",
     "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "650 MHz",
-    "Memory clock": "1150 MHz",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 250",
-    "GPU Chip": "Cape Verde",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "1024 MB, DDR3, 128 bit",
-    "GPU clock": "700 MHz",
+    "Memory": "1024 MB, DDR3, 64 bit",
+    "GPU clock": "967 MHz",
     "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "512 / 32 / 16"
-  },
-  {
-    "Product Name": "Radeon R7 250 OEM",
-    "GPU Chip": "Oland",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "1000 MHz",
-    "Memory clock": "1000 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 260X",
-    "GPU Chip": "Bonaire",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "1100 MHz",
-    "Memory clock": "1625 MHz",
-    "Shaders / TMUs / ROPs": "896 / 56 / 16"
-  },
-  {
-    "Product Name": "Radeon R7 240",
-    "GPU Chip": "Oland",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 128 bit",
-    "GPU clock": "730 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "320 / 20 / 8"
-  },
-  {
-    "Product Name": "Radeon R7 250",
-    "GPU Chip": "Cape Verde",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "1024 MB, DDR3, 128 bit",
-    "GPU clock": "925 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "512 / 32 / 16"
-  },
-  {
-    "Product Name": "Tesla K40c",
-    "GPU Chip": "GK180",
-    "Released": "Oct 8th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "12 GB, GDDR5, 384 bit",
-    "GPU clock": "745 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
+    "Shaders / TMUs / ROPs": "384 / 32 / 8"
   },
   {
     "Product Name": "GeForce 705A",
@@ -12360,14 +12370,14 @@
     "Shaders / TMUs / ROPs": "48 / 8 / 4"
   },
   {
-    "Product Name": "GeForce GT 635 OEM",
-    "GPU Chip": "GK208",
-    "Released": "Oct 1st, 2013",
-    "Bus": "PCIe 3.0 x8",
+    "Product Name": "GeForce 705M",
+    "GPU Chip": "GF117",
+    "Released": "Sep 27th, 2013",
+    "Bus": "PCIe 2.0 x16",
     "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "967 MHz",
+    "GPU clock": "738 MHz",
     "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "384 / 32 / 8"
+    "Shaders / TMUs / ROPs": "48 / 8 / 8"
   },
   {
     "Product Name": "GeForce GTX 760 Ti OEM",
@@ -12380,17 +12390,7 @@
     "Shaders / TMUs / ROPs": "1344 / 112 / 32"
   },
   {
-    "Product Name": "GeForce 705M",
-    "GPU Chip": "GF117",
-    "Released": "Sep 27th, 2013",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, DDR3, 64 bit",
-    "GPU clock": "738 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "48 / 8 / 8"
-  },
-  {
-    "Product Name": "Radeon HD 8280 Mobile IGP",
+    "Product Name": "Radeon HD 8280 IGP",
     "GPU Chip": "Kalindi",
     "Released": "Sep 18th, 2013",
     "Bus": "IGP",
@@ -12400,7 +12400,7 @@
     "Shaders / TMUs / ROPs": "128 / 8 / 4"
   },
   {
-    "Product Name": "Radeon HD 8280 IGP",
+    "Product Name": "Radeon HD 8280 Mobile IGP",
     "GPU Chip": "Kalindi",
     "Released": "Sep 18th, 2013",
     "Bus": "IGP",
@@ -12430,16 +12430,6 @@
     "Shaders / TMUs / ROPs": "2304 / 192 / 48"
   },
   {
-    "Product Name": "Radeon HD 8730 OEM",
-    "GPU Chip": "Cape Verde",
-    "Released": "Sep 5th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "800 MHz",
-    "Memory clock": "1125 MHz",
-    "Shaders / TMUs / ROPs": "384 / 24 / 8"
-  },
-  {
     "Product Name": "Radeon HD 8740 OEM",
     "GPU Chip": "Cape Verde",
     "Released": "Sep 5th, 2013",
@@ -12448,6 +12438,16 @@
     "GPU clock": "800 MHz",
     "Memory clock": "1125 MHz",
     "Shaders / TMUs / ROPs": "512 / 32 / 16"
+  },
+  {
+    "Product Name": "Radeon HD 8730 OEM",
+    "GPU Chip": "Cape Verde",
+    "Released": "Sep 5th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "1024 MB, GDDR5, 128 bit",
+    "GPU clock": "800 MHz",
+    "Memory clock": "1125 MHz",
+    "Shaders / TMUs / ROPs": "384 / 24 / 8"
   },
   {
     "Product Name": "HD Graphics 4400 Mobile",
@@ -12470,16 +12470,6 @@
     "Shaders / TMUs / ROPs": "160 / 20 / 2"
   },
   {
-    "Product Name": "Radeon HD 8770 OEM",
-    "GPU Chip": "Bonaire",
-    "Released": "Sep 2nd, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "1024 MB, GDDR5, 128 bit",
-    "GPU clock": "1050 MHz",
-    "Memory clock": "1500 MHz",
-    "Shaders / TMUs / ROPs": "896 / 56 / 16"
-  },
-  {
     "Product Name": "HD Graphics 4200 Mobile",
     "GPU Chip": "Haswell GT2",
     "Released": "Sep 2nd, 2013",
@@ -12500,14 +12490,14 @@
     "Shaders / TMUs / ROPs": "32 / 4 / 1"
   },
   {
-    "Product Name": "GeForce GT 740A",
-    "GPU Chip": "GK208",
-    "Released": "Aug 26th, 2013",
-    "Bus": "PCIe 3.0 x8",
-    "Memory": "2 GB, DDR3, 64 bit",
-    "GPU clock": "980 MHz",
-    "Memory clock": "900 MHz",
-    "Shaders / TMUs / ROPs": "384 / 32 / 8"
+    "Product Name": "Radeon HD 8770 OEM",
+    "GPU Chip": "Bonaire",
+    "Released": "Sep 2nd, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "1024 MB, GDDR5, 128 bit",
+    "GPU clock": "1050 MHz",
+    "Memory clock": "1500 MHz",
+    "Shaders / TMUs / ROPs": "896 / 56 / 16"
   },
   {
     "Product Name": "GeForce GT 745A",
@@ -12520,14 +12510,14 @@
     "Shaders / TMUs / ROPs": "384 / 32 / 16"
   },
   {
-    "Product Name": "GeForce GTX 760 Ti OEM Rebrand",
-    "GPU Chip": "GK104",
-    "Released": "Aug 25th, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "2 GB, GDDR5, 256 bit",
-    "GPU clock": "915 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "1344 / 112 / 32"
+    "Product Name": "GeForce GT 740A",
+    "GPU Chip": "GK208",
+    "Released": "Aug 26th, 2013",
+    "Bus": "PCIe 3.0 x8",
+    "Memory": "2 GB, DDR3, 64 bit",
+    "GPU clock": "980 MHz",
+    "Memory clock": "900 MHz",
+    "Shaders / TMUs / ROPs": "384 / 32 / 8"
   },
   {
     "Product Name": "GeForce GTX 760 OEM Rebrand",
@@ -12538,6 +12528,16 @@
     "GPU clock": "823 MHz",
     "Memory clock": "1400 MHz",
     "Shaders / TMUs / ROPs": "1152 / 96 / 32"
+  },
+  {
+    "Product Name": "GeForce GTX 760 Ti OEM Rebrand",
+    "GPU Chip": "GK104",
+    "Released": "Aug 25th, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "2 GB, GDDR5, 256 bit",
+    "GPU clock": "915 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "1344 / 112 / 32"
   },
   {
     "Product Name": "Radeon HD 8330 Mobile IGP",
@@ -12570,6 +12570,26 @@
     "Shaders / TMUs / ROPs": "192 / 12 / 4"
   },
   {
+    "Product Name": "Radeon HD 8310G IGP",
+    "GPU Chip": "Scrapper Lite",
+    "Released": "Jul 2013",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "424 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+  },
+  {
+    "Product Name": "Radeon HD 8370D IGP",
+    "GPU Chip": "Scrapper Lite",
+    "Released": "Jul 2013",
+    "Bus": "IGP",
+    "Memory": "System Shared",
+    "GPU clock": "760 MHz",
+    "Memory clock": "System Shared",
+    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+  },
+  {
     "Product Name": "GeForce 710M",
     "GPU Chip": "GK208",
     "Released": "Jul 24th, 2013",
@@ -12578,46 +12598,6 @@
     "GPU clock": "719 MHz",
     "Memory clock": "900 MHz",
     "Shaders / TMUs / ROPs": "192 / 16 / 8"
-  },
-  {
-    "Product Name": "Quadro K510M",
-    "GPU Chip": "GK208",
-    "Released": "Jul 23rd, 2013",
-    "Bus": "MXM-A (3.0)",
-    "Memory": "1024 MB, GDDR5, 64 bit",
-    "GPU clock": "889 MHz",
-    "Memory clock": "600 MHz",
-    "Shaders / TMUs / ROPs": "192 / 16 / 8"
-  },
-  {
-    "Product Name": "Quadro K4100M",
-    "GPU Chip": "GK104",
-    "Released": "Jul 23rd, 2013",
-    "Bus": "MXM-B (3.0)",
-    "Memory": "4 GB, GDDR5, 256 bit",
-    "GPU clock": "706 MHz",
-    "Memory clock": "800 MHz",
-    "Shaders / TMUs / ROPs": "1152 / 96 / 32"
-  },
-  {
-    "Product Name": "Quadro K1100M",
-    "GPU Chip": "GK107",
-    "Released": "Jul 23rd, 2013",
-    "Bus": "MXM-A (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "706 MHz",
-    "Memory clock": "700 MHz",
-    "Shaders / TMUs / ROPs": "384 / 32 / 16"
-  },
-  {
-    "Product Name": "Quadro K2100M",
-    "GPU Chip": "GK106S",
-    "Released": "Jul 23rd, 2013",
-    "Bus": "MXM-A (3.0)",
-    "Memory": "2 GB, GDDR5, 128 bit",
-    "GPU clock": "667 MHz",
-    "Memory clock": "752 MHz",
-    "Shaders / TMUs / ROPs": "576 / 48 / 16"
   },
   {
     "Product Name": "Quadro K3100M",
@@ -12630,34 +12610,24 @@
     "Shaders / TMUs / ROPs": "768 / 64 / 32"
   },
   {
-    "Product Name": "Radeon HD 8310G IGP",
-    "GPU Chip": "Scrapper Lite",
-    "Released": "Jul 2013",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "424 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+    "Product Name": "Quadro K4100M",
+    "GPU Chip": "GK104",
+    "Released": "Jul 23rd, 2013",
+    "Bus": "MXM-B (3.0)",
+    "Memory": "4 GB, GDDR5, 256 bit",
+    "GPU clock": "706 MHz",
+    "Memory clock": "800 MHz",
+    "Shaders / TMUs / ROPs": "1152 / 96 / 32"
   },
   {
-    "Product Name": "Quadro K6000 SDI",
-    "GPU Chip": "GK110",
+    "Product Name": "Quadro K2100M",
+    "GPU Chip": "GK106S",
     "Released": "Jul 23rd, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "12 GB, GDDR5, 384 bit",
-    "GPU clock": "902 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
-  },
-  {
-    "Product Name": "Quadro K6000",
-    "GPU Chip": "GK110B",
-    "Released": "Jul 23rd, 2013",
-    "Bus": "PCIe 3.0 x16",
-    "Memory": "12 GB, GDDR5, 384 bit",
-    "GPU clock": "797 MHz",
-    "Memory clock": "1502 MHz",
-    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
+    "Bus": "MXM-A (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "667 MHz",
+    "Memory clock": "752 MHz",
+    "Shaders / TMUs / ROPs": "576 / 48 / 16"
   },
   {
     "Product Name": "Quadro K5100M",
@@ -12670,14 +12640,44 @@
     "Shaders / TMUs / ROPs": "1536 / 128 / 32"
   },
   {
-    "Product Name": "Radeon HD 8370D IGP",
-    "GPU Chip": "Scrapper Lite",
-    "Released": "Jul 2013",
-    "Bus": "IGP",
-    "Memory": "System Shared",
-    "GPU clock": "760 MHz",
-    "Memory clock": "System Shared",
-    "Shaders / TMUs / ROPs": "128 / 8 / 4"
+    "Product Name": "Quadro K1100M",
+    "GPU Chip": "GK107",
+    "Released": "Jul 23rd, 2013",
+    "Bus": "MXM-A (3.0)",
+    "Memory": "2 GB, GDDR5, 128 bit",
+    "GPU clock": "706 MHz",
+    "Memory clock": "700 MHz",
+    "Shaders / TMUs / ROPs": "384 / 32 / 16"
+  },
+  {
+    "Product Name": "Quadro K510M",
+    "GPU Chip": "GK208",
+    "Released": "Jul 23rd, 2013",
+    "Bus": "MXM-A (3.0)",
+    "Memory": "1024 MB, GDDR5, 64 bit",
+    "GPU clock": "889 MHz",
+    "Memory clock": "600 MHz",
+    "Shaders / TMUs / ROPs": "192 / 16 / 8"
+  },
+  {
+    "Product Name": "Quadro K6000",
+    "GPU Chip": "GK110B",
+    "Released": "Jul 23rd, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "12 GB, GDDR5, 384 bit",
+    "GPU clock": "797 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
+  },
+  {
+    "Product Name": "Quadro K6000 SDI",
+    "GPU Chip": "GK110",
+    "Released": "Jul 23rd, 2013",
+    "Bus": "PCIe 3.0 x16",
+    "Memory": "12 GB, GDDR5, 384 bit",
+    "GPU clock": "902 MHz",
+    "Memory clock": "1502 MHz",
+    "Shaders / TMUs / ROPs": "2880 / 240 / 48"
   },
   {
     "Product Name": "Quadro K610M",
@@ -19350,16 +19350,6 @@
     "Shaders / TMUs / ROPs": "1440 / 72 / 32"
   },
   {
-    "Product Name": "Radeon HD 3610",
-    "GPU Chip": "RV630",
-    "Released": "Sep 24th, 2009",
-    "Bus": "PCIe 1.0 x16",
-    "Memory": "512 MB, DDR2, 128 bit",
-    "GPU clock": "594 MHz",
-    "Memory clock": "396 MHz",
-    "Shaders / TMUs / ROPs": "120 / 8 / 4"
-  },
-  {
     "Product Name": "FirePro 2450 Multi-View",
     "GPU Chip": "RV620",
     "Released": "2009",
@@ -19390,16 +19380,6 @@
     "Shaders / TMUs / ROPs": "40 / 4 / 4"
   },
   {
-    "Product Name": "Radeon HD 5870",
-    "GPU Chip": "Cypress",
-    "Released": "Sep 23rd, 2009",
-    "Bus": "PCIe 2.0 x16",
-    "Memory": "1024 MB, GDDR5, 256 bit",
-    "GPU clock": "850 MHz",
-    "Memory clock": "1200 MHz",
-    "Shaders / TMUs / ROPs": "1600 / 80 / 32"
-  },
-  {
     "Product Name": "Mobility FireGL V5725",
     "GPU Chip": "M86",
     "Released": "2009",
@@ -19408,6 +19388,26 @@
     "GPU clock": "680 MHz",
     "Memory clock": "800 MHz",
     "Shaders / TMUs / ROPs": "120 / 8 / 4"
+  },
+  {
+    "Product Name": "Radeon HD 3610",
+    "GPU Chip": "RV630",
+    "Released": "Sep 24th, 2009",
+    "Bus": "PCIe 1.0 x16",
+    "Memory": "512 MB, DDR2, 128 bit",
+    "GPU clock": "594 MHz",
+    "Memory clock": "396 MHz",
+    "Shaders / TMUs / ROPs": "120 / 8 / 4"
+  },
+  {
+    "Product Name": "Radeon HD 5870",
+    "GPU Chip": "Cypress",
+    "Released": "Sep 23rd, 2009",
+    "Bus": "PCIe 2.0 x16",
+    "Memory": "1024 MB, GDDR5, 256 bit",
+    "GPU clock": "850 MHz",
+    "Memory clock": "1200 MHz",
+    "Shaders / TMUs / ROPs": "1600 / 80 / 32"
   },
   {
     "Product Name": "Mobility Radeon HD 4670 Mac Edition",
