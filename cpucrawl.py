@@ -108,7 +108,10 @@ def main():
     df = df.reset_index(drop=True)
     df = df.drop(columns=["Released Date"])
 
-    df.to_json('cpu_specs.json', orient='records')
+    data = df.to_dict(orient='records')
+    with open("cpu_specs.json", "w") as f:
+        f.write(json.dumps(data, indent=2))
+
 
 
 if __name__ == '__main__':

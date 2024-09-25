@@ -43,6 +43,8 @@ async def main():
     df = df.reset_index(drop=True)
     df = df.drop(columns=["Released Date"])
 
-    df.to_json('gpu_specs.json', orient='records')
+    data = df.to_dict(orient='records')
+    with open("gpu_specs.json", "w") as f:
+        f.write(json.dumps(data, indent=2))
         
 asyncio.run(main())
