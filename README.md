@@ -18,6 +18,6 @@ pixi run cpucrawl
 pixi run gpucrawl
 ```
 
-> Note: If receive too many 429 status code, try to refresh the [site](https://www.techpowerup.com/cpu-specs) or add more delay to `time.sleep()` function in the script. (CPU crawler)
+> Note: If receive too many 429 status code, try to refresh many time the [site](https://www.techpowerup.com/cpu-specs) and solve the captcha or add more delay to `time.sleep()` function in the script. (CPU crawler)
 
 > Feel free to use my json files
