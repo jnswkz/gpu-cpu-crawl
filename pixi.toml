@@ -3,7 +3,7 @@ authors = ["jnswkz <23520408@gm.uit.edu.vn>"]
 channels = ["conda-forge"]
 description = "Small crawler for GPU and CPU information from TPU" 
 name = "gpu_cpu_crawler"
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
